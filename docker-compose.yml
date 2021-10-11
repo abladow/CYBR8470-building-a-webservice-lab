@@ -38,7 +38,8 @@ services:
       - postgres-config:/etc/postgresql
       - postgres-data:/var/lib/postgresql/data
       - postgres-logs:/var/log/postgresql
-      - ./database-backup:/database-backup
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
 volumes:
   postgres-config:
   postgres-data:

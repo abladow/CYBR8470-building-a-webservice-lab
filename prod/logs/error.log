@@ -1,0 +1,2 @@
+2021/10/11 22:01:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.26.0.1, server: localhost, request: "GET /api/events HTTP/1.1", upstream: "http://172.26.0.3:8000/api/events", host: "localhost", referrer: "http://localhost/"
+2021/10/11 22:01:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.26.0.1, server: localhost, request: "GET /api/events HTTP/1.1", upstream: "http://172.26.0.3:8000/api/events", host: "localhost", referrer: "http://localhost/"
